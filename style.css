@@ -1,0 +1,18 @@
+:root {
+    --yellow: rgb(254, 243, 199);
+    --purple: rgb(167, 139, 250);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+canvas {
+    transform: scale(0.8);
+    box-shadow: 0 0 2rem #666;
+    border-radius: 2rem;
+}
