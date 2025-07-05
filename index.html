@@ -5,8 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.11.8/lib/p5.min.js"></script>
-        <script src="sketch.js"></script>
+        <script defer src="sketch.js"></script>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body></body>
+    <body>
+        <section id="control">
+            <fieldset>
+                <label for="numPlanets">Anzahl Kreise:</label>
+                <input
+                    type="range"
+                    min="1"
+                    max="50"
+                    id="numPlanets"
+                    value="12"
+                />
+                <span id="numPlanetsValue">12</span>
+            </fieldset>
+
+            <fieldset>
+                <label for="speed">Geschwindigkeit:</label>
+                <input type="range" min="1" max="100" id="speed" value="20" />
+                <span id="speedValue">20%</span>
+            </fieldset>
+        </section>
+    </body>
 </html>
