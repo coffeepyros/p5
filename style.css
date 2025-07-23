@@ -1,0 +1,20 @@
+@import url(https://fonts.bunny.net/css?family=azeret-mono:400,700);
+
+:root {
+    font-size: 18px;
+}
+body {
+    font-family: "Azeret Mono", monospace;
+    line-height: 1.4;
+}
+a {
+    color: #00786f;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+a:hover {
+    background-color: #00786f;
+    color: #fff;
+    transition: all 0.5s;
+}
